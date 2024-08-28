@@ -1,0 +1,48 @@
+/* style.module.css */
+
+
+.personal-profile-main-container {
+  background-color: var(--secondary-white);
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  
+}
+
+.pp-overview-div{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 14px;
+}
+
+.pp-nav-div {
+  background-color: var(--primary-white);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 50;
+}
+.pp-summary-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+.user-profile-content{
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  width: 100%;
+}
+.common-footer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}

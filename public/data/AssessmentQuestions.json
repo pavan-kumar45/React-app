@@ -1,0 +1,124 @@
+[
+  {
+    "qno": "0",
+    "id": "01",
+    "qlabel": "Find the sum of two integers",
+    "qtext": "<p>Given an array of integers&nbsp;<code>nums</code>&nbsp;and an integer&nbsp;<code>target</code>, return&nbsp;<em>indices of the two numbers such that they add up to&nbsp;<code>target</code></em>. You may assume that each input would have&nbsp;<strong><em>exactly</em>&nbsp;one solution</strong>, and you may not use the&nbsp;<em>same</em>&nbsp;element twice. You can return the answer in any order.</p><p><strong>Example 1:</strong></p><pre><p><strong>Input:</strong> nums = [2,7,11,15], target = 9</p><p><strong>Output:</strong> [0,1]</p><p><strong>Explanation:</strong> Because nums[0] + nums[1] == 9, we return [0, 1].</p></pre><p><strong>Example 2:</strong></p><pre><p><strong>Input:</strong> nums = [3,2,4], target = 6</p><p><strong>Output:</strong> [1,2]</p></pre><p><strong>Example 3:</strong></p><pre><p><strong>Input:</strong> nums = [3,3], target = 6</p><p><strong>Output:</strong> [0,1]</p></pre><p><strong>Constraints:</strong></p><ul><li><code>2 &lt;= nums.length &lt;= 10<sup>4</sup></code></li><li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li><li><code>-10<sup>9</sup> &lt;= target &lt;= 10<sup>9</sup></code></li></ul>",
+    "qtype": "code",
+    "qlanguage": ["java", "javascript", "python", "c", "c++", "c#", "dart"],
+    "qoptions": [],
+    "qmulticheck": false
+  },
+  {
+    "qno": "01",
+    "id": "02", 
+    "qlabel": "Insert Interval",
+    "qtext": "<p>You are given an array of non-overlapping intervals&nbsp;intervals&nbsp;where&nbsp;intervals[i] = [starti, endi]&nbsp;represent the start and the end of the&nbsp;ith&nbsp;interval and&nbsp;intervals&nbsp;is sorted in ascending order by&nbsp;starti. You are also given an interval&nbsp;newInterval = [start, end]&nbsp;that represents the start and end of another interval. Insert&nbsp;newInterval&nbsp;into&nbsp;intervals&nbsp;such that&nbsp;intervals&nbsp;is still sorted in ascending order by&nbsp;starti&nbsp;and&nbsp;intervals&nbsp;still does not have any overlapping intervals (merge overlapping intervals if necessary).</p><p>Return&nbsp;intervals&nbsp;after the insertion.</p><p><strong>Example 1:</strong></p><p><strong>Input:</strong> intervals = [[1,3],[6,9]], newInterval = [2,5]</p><p><strong>Output:</strong> [[1,5],[6,9]]</p><p><strong>Example 2:</strong></p><p><strong>Input:</strong> intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]], newInterval = [4,8]</p><p><strong>Output:</strong> [[1,2],[3,10],[12,16]]</p><p><strong>Explanation:</strong> Because the new interval [4,8] overlaps with [3,5],[6,7],[8,10].</p><p><strong>Constraints:</strong></p><ul><li><code>0 &lt;= intervals.length &lt;= 10<sup>4</sup></code></li><li><code>intervals[i].length == 2</code></li><li><code>0 &lt;= start<sub>i</sub> &lt;= end<sub>i</sub> &lt;= 10<sup>5</sup></code></li><li><code>intervals</code>&nbsp;is sorted by&nbsp;<code>start<sub>i</sub></code>&nbsp;in&nbsp;<strong>ascending</strong>&nbsp;order.</li><li><code>newInterval.length == 2</code></li><li><code>0 &lt;= start &lt;= end &lt;= 10<sup>5</sup></code></li></ul>",
+    "qtype": "code",
+    "qlanguage": ["java", "javascript", "python", "c", "c++", "c#", "dart"],
+    "qoptions": [],
+    "qmulticheck": false
+  },
+  {
+    "qno": "02",
+    "id": "03",
+    "qlabel": "Length of Last word",
+    "qtext": "<p>Given a string&nbsp;<code>s</code>&nbsp;consisting of words and spaces, return&nbsp;<em>the length of the&nbsp;<strong>last</strong>&nbsp;word in the string.</em>&nbsp;A&nbsp;word&nbsp;is a maximal&nbsp;substring consisting of non-space characters only.</p><p><strong>Example 1: </strong></p><p>Input: s = \"Hello World\"</p><p>Output: 5</p><p>Explanation: The last word is \"World\" with length 5.</p><p><strong>Example 2:</strong></p><p>Input: s = \" fly me to the moon \"</p><p>Output: 4</p><p>Explanation: The last word is \"moon\" with length 4.</p><p><strong>Example 3:</strong></p><p>Input: s = \"luffy is still joyboy\"</p><p>Output: 6</p><p>Explanation: The last word is \"joyboy\" with length 6.</p><p><strong>Constraints:</strong></p><ul><li><code>1 &lt;= s.length &lt;= 10<sup>4</sup></code></li><li><code>s</code>&nbsp;consists of only English letters and spaces&nbsp;<code>&#39; &#39;</code>.</li><li>There will be at least one word in&nbsp;<code>s</code>.</li></ul>",
+    "qtype": "code",
+    "qlanguage": ["java", "javascript", "python", "c", "c++", "c#", "dart"],
+    "qoptions": [],
+    "qmulticheck": false
+  },
+  {
+    "qno": "03",
+    "id": "04",
+    "qlabel": "What does the term SDLC stand for in the context of software engineering?",
+    "qtext": "What does the term SDLC stand for in the context of software engineering?",
+    "qtype": "MCQ",
+    "qlanguage": [],
+    "qoptions": [
+      "Software Development Life Collaboration",
+      "Systematic Development Life Cycle",
+      "Software Development Life Cycle",
+      "System Design and Logic Compilation"
+    ],
+    "qmulticheck": false
+  },
+  {
+    "qno": "04",
+    "id": "05",
+    "qlabel": "Which software development model is known for its flexibility and ability to accommodate changes during the development process?",
+    "qtext": "Which software development model is known for its flexibility and ability to accommodate changes during the development process?",
+    "qtype": "MCQ",
+    "qlanguage": [],
+    "qoptions": ["Waterfall Model", "Agile Model", "Spiral Model", "V Model"],
+    "qmulticheck": false
+  },
+  {
+    "qno": "05",
+    "id": "06",
+    "qlabel": "In object-oriented programming, what is encapsulation?",
+    "qtext": "In object-oriented programming, what is encapsulation?",
+    "qtype": "MCQ",
+    "qlanguage": [],
+    "qoptions": [
+      "Software Development Life Collaboration",
+      "Systematic Development Life Cycle",
+      "Software Development Life Cycle",
+      "System Design and Logic Compilation"
+    ],
+    "qmulticheck": false
+  },
+  {
+    "qno": "06",
+    "id": "07",
+    "qlabel": "Which of the following are advantages of using version control systems?",
+    "qtext": "Which of the following are advantages of using version control systems?",
+    "qtype": "MCQ",
+    "qlanguage": [],
+    "qoptions": [
+      "Tracking changes in the codebase",
+      "Facilitating collaboration among team members",
+      "Enforcing a rigid development process",
+      "Rolling back to previous stable versions",
+      "Managing and resolving conflicts in code changes"
+    ],
+    "qmulticheck": true
+  },
+  {
+    "qno": "07",
+    "id": "08",
+    "qlabel": "When designing a relational database schema, which normalization principles aim to reduce data redundancy?",
+    "qtext": "When designing a relational database schema, which normalization principles aim to reduce data redundancy?",
+    "qtype": "MCQ",
+    "qlanguage": [],
+    "qoptions": [
+      "First Normal Form (1NF)",
+      "Second Normal Form (2NF)",
+      "Third Normal Form (3NF)",
+      "Boyce-Codd Normal Form (BCNF)",
+      "Fourth Normal Form (4NF)"
+    ],
+    "qmulticheck": true
+  },
+  {
+    "qno": "08",
+    "id": "09",
+    "qlabel": "In the Agile development methodology, the smallest unit of time in which work is planned and completed is called a __________",
+    "qtext": "In the Agile development methodology, the smallest unit of time in which work is planned and completed is called a __________",
+    "qtype": "Text",
+    "qlanguage": [],
+    "qoptions": [],
+    "qmulticheck": false
+  },
+  {
+    "qno": "09",
+    "id": "10",
+    "qlabel": "A software design pattern that defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically is known as the __________ pattern.",
+    "qtext": "A software design pattern that defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically is known as the __________ pattern.",
+    "qtype": "Text",
+    "qlanguage": [],
+    "qoptions": [],
+    "qmulticheck": false
+  }
+]

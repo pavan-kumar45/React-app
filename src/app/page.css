@@ -1,0 +1,244 @@
+
+
+/* CSS for Navbar */
+.navbar-main {
+  background-color: var(--primary-white);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+}
+
+/* CSS for design elements */
+.circle-svg {
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: floating;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+}
+.polygon-svg {
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: floating;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+}
+.circle-design-element1 {
+  left: 50px;
+  z-index: 2;
+}
+.polygon-design-element1 {
+  left: 50px;
+}
+.circle-design-element2 {
+  right: 200px;
+  top: 120px;
+  z-index: 2;
+}
+.polygon-design-element2 {
+  right: 50px;
+  top: -75px;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-div {
+  display: flex;
+  justify-content: center; /* Horizontally center the flex child */
+  width: 100%;
+}
+.footer {
+  background-color: var(--territary-white);
+  color: var(--primary-black) !important;
+  margin: 0 !important;
+}
+.chooseus {
+  background-color: var(--secondary-white);
+  position: relative;
+}
+
+.loading-content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: var(--primary-white);
+  z-index: 100000;
+}
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.loading-content p {
+  font-family: var(--font-poppins);
+  padding: 2rem;
+}
+
+.wave {
+  width: 5px;
+  height: 100px;
+  background: linear-gradient(90deg, rgb(0, 0, 0), var(--primary-black));
+  margin: 10px;
+  animation: wave 1s linear infinite;
+  border-radius: 20px;
+}
+.wave:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.wave:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.wave:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.wave:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.wave:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.wave:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.wave:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.wave:nth-child(9) {
+  animation-delay: 0.8s;
+}
+.wave:nth-child(10) {
+  animation-delay: 0.9s;
+}
+
+/* Page not found css */
+.not-found {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 15px;
+}
+.not-found p {
+  text-align: center;
+}
+
+.not-found .notfound-image {
+  margin: 2rem;
+  max-width: 90%;
+  height: auto;
+}
+.not-found .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.not-found .buttons button {
+  padding: 15px 30px;
+  border: 0;
+  margin: 1rem;
+  border-radius: 5px;
+}
+.buttons .gohome-button {
+  background-color: var(--primary-color);
+  color: var(--primary-white);
+  border: 1px solid var(--primary-color);
+}
+button {
+  cursor: pointer;
+}
+.buttons .gohome-link {
+  color: var(--primary-white);
+  text-decoration: none;
+}
+.buttons .gohome-button:hover {
+  background-color: var(--primary-white);
+  border: 1px solid var(--primary-color);
+  transition: 0.2s ease;
+}
+.buttons .gohome-button:hover .gohome-link {
+  color: var(--primary-color);
+  transition: 0.2s ease;
+}
+
+/* CSS for Error Page */
+
+.error-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+.error-page img {
+  width: 400px;
+  height: auto;
+  margin: 5rem;
+}
+.error-page button {
+  padding: 15px 30px;
+  border: 0;
+  margin: 1rem;
+  border-radius: 5px;
+}
+.error-page p {
+  text-align: center;
+}
+
+/* All key frames */
+
+@keyframes wave {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+/* Media queries for svg content */
+@media only screen and (max-width: 1100px) {
+  .circle-svg {
+    height: 50px;
+    width: 50px;
+  }
+  .polygon-svg {
+    height: 100px;
+    width: 100px;
+  }
+  .circle-design-element2 {
+    top: 10px;
+    right: 20px;
+  }
+}

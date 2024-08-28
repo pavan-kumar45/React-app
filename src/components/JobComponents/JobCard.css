@@ -1,0 +1,164 @@
+@import url("../../app/globals.css");
+
+.job-card {
+  border: 0px solid #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #fff;
+  /* width: 550px; */
+  box-shadow: none;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.job-card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+.job-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.company-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.job-card h3 {
+  margin: 0 0 0px 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.job-card p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: black;
+  font-size: 0.7rem;
+}
+
+/* .job-description {
+  margin: 10px 0;
+  color: black;
+} */
+.jjj p{
+  color: grey;
+  margin: 0 0 0px 0
+}
+.job-details {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  color: #757575;
+  margin: 8px 0;
+}
+.job-details p{
+  color: #757575;
+  font-size: 0.6rem;
+}
+
+.job-card .date-posted {
+  font-size: 12px;
+  color: #757575;
+  margin-top: 8px;
+}
+
+.save-button {
+  border: none;
+  background: none;
+  color: #2979ff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+  margin-top: 10px;
+  transition: color 0.3s ease;
+}
+
+.save-button:hover {
+  color: #1a56d1;
+}
+
+.job-list {
+  display: block; /* Ensure the job list is block-level */
+  width: 600px;
+}
+
+.yyy{
+  display: flex;
+  justify-content: space-between;
+}
+
+.yyy p{
+  /* display: flex; */
+  font-size: 0.6rem;
+  color: grey;
+}
+
+.apply-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.apply-button button{
+  width: 380px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: var(--primary-color);
+  color: var(--primary-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0px solid;
+
+}
+
+.apply-button button h2{
+  margin: 0px;
+  font-size: medium;
+  margin-left: 10px;
+  font-family:'__Poppins_7df6af', '__Poppins_Fallback_7df6af';
+  font-size:1rem;
+  font-weight:550;
+}
+
+.bs-container{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.base-pay h4 {
+  margin: 0px;
+  color: #4acf7a;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+.skill-match h4{
+  margin: 0px;
+  color: var(--primary-color);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.base-pay p{
+  font-size: 0.75rem;
+  color: #979393;
+}
+.skill-match p{
+  font-size: 0.75rem;
+  color: #979393;
+}
+
+.job-responsibilities p{
+  font-size: 0.9rem;
+  padding:medium;
+}
+

@@ -1,0 +1,229 @@
+@import url("../../app/globals.css");
+.filters {
+  background-color: var(--secondary-color);
+  padding-right: 60px;
+  border-radius: 10px;
+  width: 270px;
+  /* padding-left: 50px; */
+}
+
+.filters h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: #333;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: solid 2px #f4f4f4;
+  border-radius: 12px;
+}
+
+.filters .filter-options {
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 10px; */
+  padding:20px;
+}
+
+.kkk{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.lll{
+  font-size: 12px;
+  text-align: center;
+  color: grey;
+}
+
+.work-mode-options,
+.job-type-options {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.toggle-button {
+  padding: 6px 17px;
+  border-radius: 8px;
+  border: 0px solid #ddd;
+  background-color: rgb(245, 245, 245);
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s, color 0.3s;
+  font-family:'__Poppins_7df6af', '__Poppins_Fallback_7df6af';
+  font-size:0.8rem;
+  font-weight:400;
+}
+
+.salary-toggle-button {
+  padding: 7px;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  width: 100px;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 0.75rem; /* Adjust this value as needed */;
+}
+
+.toggle-button.selected {
+  background-color: rgb(0, 76, 187, 255);
+  color: white;
+}
+
+
+
+.experience-options .experience-input {
+  display: flex;
+  align-items: center;
+}
+
+.experience-options input[type="number"] {
+  padding: 8px;
+  width: 110px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 20px;
+  flex: 1;
+}
+
+.experience-controls {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+
+
+
+.experience-controls button {
+  padding: 4px;
+  width: 30px;
+  border-radius: 3px;
+  border: 0px solid #ff0000;
+  background-color: rgb(0, 76, 187, 255);
+  color: #fff;
+  cursor: pointer;
+}
+
+.filter-options input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.filter-options label {
+  font-size: 14px;
+  color: var(--primary-black);
+  cursor: pointer;
+}
+
+.filter-options label:hover {
+  color: #333;
+}
+
+.company-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.company-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.salary-inputs {
+  display: flex;
+
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+
+.salary-inputs input[type="number"] {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  flex: 1;
+  width:90px;
+}
+
+h5 {
+  margin: 0; /* Remove default margin */
+  padding: 0;
+  
+}
+
+
+.searchInput {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-family: system-ui, sans-serif;
+}
+
+.salary-range {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap onto multiple lines if needed */
+  gap: 10px; /* Adds space between items */
+  justify-content: center; /* Aligns items to the start of the container */
+}
+
+
+
+
+.filter-section {
+  background-color: #fff;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+
+}
+
+.company-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-checkbox-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.custom-checkbox-label input[type="checkbox"] {
+  display: none;
+}
+
+.custom-checkbox {
+  width: 16px;
+  height: 16px;
+  border: 1px solid lightgrey;
+  background-color: transparent;
+  margin-right: 8px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.custom-checkbox-label input[type="checkbox"]:checked + .custom-checkbox {
+  background-color: var(--primary-color); /* Change this color as desired */
+  border-color:lightgrey;
+}
+
+.custom-checkbox-label input[type="checkbox"]:focus + .custom-checkbox {
+  outline: none;
+  border-color: #0056b3;
+}
+
+
+.ppp{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}

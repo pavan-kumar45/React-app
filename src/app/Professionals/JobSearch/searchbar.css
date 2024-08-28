@@ -1,0 +1,92 @@
+@import url("../../globals.css");
+
+.search-bar-container{
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #f9f9fb; /* Light grey background for the search bar */
+  width: 100%;
+  max-width: 800px;
+  gap: 10px; /* Add spacing between items */
+}
+.icon{
+  align-items: center;
+}
+.input-group-1 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #fff; /* White background for input fields */
+  padding: 10px; /* Add padding inside input group */
+  height: 21px; /* Fixed height for consistency */
+  flex:0.7;
+}
+.input-group-2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #fff; /* White background for input fields */
+  padding: 10px; /* Add padding inside input group */
+  height: 21px; /* Fixed height for consistency */
+  flex: 0.2
+}
+
+.search-input {
+  
+  width: 100%;
+  border: none; /* Remove border */
+  background-color: transparent; /* Transparent to show group background */
+  outline: none; /* Remove outline */
+  font-size: 16px; /* Slightly larger font size for better readability */
+  padding: 5px; /* Padding inside inputs */
+  color: #333;
+  height: 100%; /* Ensure input fills the entire group height */
+  font-family:'__Poppins_7df6af', '__Poppins_Fallback_7df6af';
+  font-size:0.9rem;
+  font-weight:400;
+}
+
+.location-input {
+ 
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  font-size: 16px;
+  padding: 5px;
+  color: #333;
+  height: 100%;
+  font-family:'__Poppins_7df6af', '__Poppins_Fallback_7df6af';
+  font-size:0.9rem;
+  font-weight:400;
+}
+
+.search-button {
+
+  background-color: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: bold; /* Bold text for emphasis */
+  height: 40px; /* Match button height with input group */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex:0.1;
+  font-family:'__Poppins_7df6af', '__Poppins_Fallback_7df6af';
+  font-size:0.9rem;
+  font-weight:400;
+}
+
+.search-button:hover {
+  background-color: #003193;
+}

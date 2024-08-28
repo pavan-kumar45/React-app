@@ -12,7 +12,7 @@ import PPDetails from "@/components/authComponents/PersonalProfileComponents/PPD
 import CommonFooter from "@/components/authComponents/CommonComponents/CommonFooter";
 import { useEffect, useRef, useState } from "react";
 import styles from './style.module.css'
-import style from '../../../Components/authComponents/PersonalProfileComponents/PPStyle.module.css';
+import style from '@/components/authComponents/PersonalProfileComponents/PPStyle.module.css';
 
 
 import { useRecoilState } from "recoil";

@@ -19,7 +19,16 @@
 .profilepage:hover .link-profile{
     background-color: var(--secondary-white);
 }
-.assessmentpage, .profilepage{
+
+.jobsearchpage:hover{
+    background-color: var(--hover-orange);
+}
+.jobsearchpage:hover .link-job{
+    background-color: var(--secondary-white);
+}
+
+
+.assessmentpage, .profilepage, .jobsearchpage{
    display: flex;
    justify-content: center;
    align-items: center;
@@ -34,6 +43,14 @@
 }
 .link-profile{
     background-color: var(--hover-purple);
+    padding: 15px 30px;
+    border-radius: 15px;
+    color: var(--icon-purple);
+    text-decoration: none;
+}
+
+.link-job{
+    background-color: var(--hover-orange);
     padding: 15px 30px;
     border-radius: 15px;
     color: var(--icon-purple);

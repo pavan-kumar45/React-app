@@ -17,6 +17,11 @@ export default function page() {
           Personal Profile
         </Link>
       </div>
+      <div className="jobsearchpage">
+        <Link href="./JobSearch/" className="link-job">
+          Job Search
+        </Link>
+      </div>
     </div>
   );
 }
